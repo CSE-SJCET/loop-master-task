@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "Compile Java Code",
+            "setup": "javac LoopMaster.java",
+            "run": "",
+            "input": "",
+            "expected_output": "",
+            "comparison": "exact",
+            "timeout": 10
+        },
+        {
+            "name": "Run Test Script",
+            "setup": "chmod +x run.sh",
+            "run": "./run.sh",
+            "input": "",
+            "expected_output": "",
+            "comparison": "exact",
+            "timeout": 10
+        }
+    ],
+    "autograder": {
+        "language": "shell"
+    }
+}
